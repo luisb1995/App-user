@@ -1,0 +1,49 @@
+.Contenedor {
+  display: grid;
+  width: 100%;
+}
+.contenedor-buscador {
+  display: flex;
+  height: 120px;
+  background-color: rgb(57, 72, 103);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+label {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 20px;
+  color: rgb(241, 246, 249);
+}
+input {
+  border: 2px solid rgb(155, 164, 181);
+  border-radius: 6px;
+  background-color: rgb(241, 246, 249);
+  height: 35px;
+}
+input:focus {
+  outline: 0;
+  border: 2px solid rgb(92, 97, 104);
+}
+button {
+  margin-left: 5px;
+  width: 100px;
+  margin-bottom: 6px;
+}
+table {
+  text-align: center;
+  align-content: center;
+}
+thead {
+  justify-content: center;
+  align-items: center;
+}
+.users {
+  min-height: 100%;
+}
+h2 {
+  text-align: center;
+  margin: 0 auto;
+}
